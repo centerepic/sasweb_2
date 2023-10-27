@@ -112,6 +112,16 @@ h2 {
   color: rgb(255, 255, 255);
 }
 
+/* center image-container and all other content */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .image-container {
   display: block;
   margin-left: auto;
