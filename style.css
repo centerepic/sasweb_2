@@ -124,7 +124,8 @@ h2 {
 
 .image-container {
   display: block;
-  align-content: center;
+  /* center image container and contents */
+  margin: 0 auto;
   width: 100%;
   max-width: 95vw; /* limits to the width of viewport */
   height: 0;
