@@ -65,8 +65,9 @@ body::-webkit-scrollbar {
 }
 
 .glow {
+  margin-top: 5vh;
   color: #fff;
-  animation: glow 10s ease-in infinite, flicker 10s ease-in infinite;
+  animation: glow 10s ease-out infinite, flicker 10s ease-out infinite;
 }
 
 .text-container {
@@ -134,7 +135,7 @@ h2 {
 .image-container {
   display: block;
   /* center image container and contents */
-  margin: 0 auto;
+  margin: 2% auto 2%;
   width: 100%;
   max-width: 95vw; /* limits to the width of viewport */
   height: 0;
@@ -144,7 +145,6 @@ h2 {
 }
   
 img {
-  padding-top: 2%;
   position: absolute;
   top: 0;
   left: 0;
