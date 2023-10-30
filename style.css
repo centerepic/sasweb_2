@@ -18,25 +18,25 @@ body::-webkit-scrollbar {
 
 @keyframes glow {
   0% {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4, 0 0 70px #ff69b4;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4, 0 0 200px #ff69b4;
   }
   49% {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f77eba, 0 0 40px #f77eba, 0 0 50px #f77eba, 0 0 60px #f77eba, 0 0 70px #f77eba;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f77eba, 0 0 40px #f77eba, 0 0 50px #f77eba, 0 0 60px #f77eba, 0 0 200px #f77eba;
   }
   50% {
     text-shadow: 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000, 0 0 80px #000000;
   }
   51% {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4, 0 0 70px #ff69b4;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4, 0 0 200px #ff69b4;
   }
   52% {
     text-shadow: 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000, 0 0 80px #000000;
   }
   53% {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4, 0 0 70px #ff69b4;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4, 0 0 200px #ff69b4;
   }
   100% {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4, 0 0 70px #ff69b4;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff69b4, 0 0 40px #ff69b4, 0 0 50px #ff69b4, 0 0 60px #ff69b4, 0 0 200px #ff69b4;
   }
 }
 
@@ -66,7 +66,7 @@ body::-webkit-scrollbar {
 
 .glow {
   color: #fff;
-  animation: glow 10s ease-in-out infinite, flicker 10s ease-in-out infinite;
+  animation: glow 10s ease-in infinite, flicker 10s ease-in infinite;
 }
 
 .text-container {
@@ -98,6 +98,12 @@ body::-webkit-scrollbar {
   height: 100%;
   width: 100%;
   display: block;
+}
+
+.info {
+  font-weight: 300;
+  color: rgb(224, 192, 132);
+  text-shadow:rgb(238, 157, 6) 0px 0px 10px, rgb(238, 157, 6) 0px 0px 50px;
 }
 
 h1 {
